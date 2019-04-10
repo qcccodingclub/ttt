@@ -13,55 +13,49 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <style>
-    /*Make the image fully responsive */
-    .carousel-inner img {
-        width: 100%;
-        height: 100%;
+.imgicon{
+  		margin: auto;
+  		width: 20%;
+  		text-align: center;
+  		float: left;
+  	}
+  	.apps{
+
+  		margin: auto;
+  		width: 20%;
+  		text-align: center;
+  	}
+  .imgright{
+    float:right;
+    width:55%;
+  }
+.imgleft{
+  float:left;
+  width:55%;
+}
+  @media only screen and (max-width: 1198px) {
+  	.imgicon{
+  		margin: auto;
+  		width: 20%;
+  		text-align: center;
+  		float: left;
+  		}
+  	.apps{
+  		margin: auto;
+  		width: 20%;
+  		text-align: center;
+  	}
+    .imgright{
+      margin: auto;
+      float: none;
+      width: 90%;
     }
-
-    .container1 {
-      position: relative;
-      width: 100%;
-
+    .imgleft{
+      margin: auto;
+      float: none;
+      width: 90%;
     }
-
-    .image1 {
-      display: ;
-
-      height: auto;
-
-
-    }
-    .text {
-      color: white;
-      font-size: 22px;
-      position: absolute;
-      top: 50%;
-      left: 35%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      text-align: left;
-    }
-    .overlay1 {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 10%;
-      width:100%;
-      opacity: 0;
-      transition: .5s ease;
-      background: rgb(0, 0, 0); /* Fallback color */
-      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-      color: #f1f1f1;
-      width: 100%;
-      padding: 20px;
-    }
-
-    .container1:hover .overlay1 {
-      opacity: 1;}
+}
 </style>
 </head>
 
@@ -78,7 +72,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">QCC</a>
+                <a class="navbar-brand" href="http://www.qcc.cuny.edu/index.html">QCC</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -90,7 +84,7 @@
                         <a href="http://www.qcc.cuny.edu/admissions/index.html">Admission</a>
                     </li>
                     <li>
-                        <a href="#">Academics</a>
+                        <a href="index.html">Academics</a>
                     </li>
 
                       <li>
@@ -116,14 +110,11 @@
         <div class="row">
             <div class="col-lg-12">
                 <br>
+                <div class="thumbnail">
                  <img src="pic/STEM_pic/STEM.png" alt="" align= "middle">
                <br>
                <br>
-              <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li class="active">STEM</li>
-                </ol>
+             </div>
             </div>
         </div>
 
@@ -132,226 +123,274 @@
 	<h1><b>Associate in Science (A.S)</b> </h1>
 </div>
        <hr>
+       <div class="imgright">
+
+   <!-- Course page -->
+               <img class="img-responsive img-rounded" src="pic/STEM_pic/Biotech.jpg" alt="">
+           <br></div>
         <!-- Blog Post Row -->
         <div class="row">
 
             <div class="col-md-5">
-              <h3>
-                    <a href="http://www.qcc.cuny.edu/academics/degree-programs/biotechnology-dual-joint-york.html">Biotechnology</a>
-                </h3>
-                <p>This program will equip students with the knowledge and skills required to succeed as technicians in the modern biotechnology environment and provide QCC graduates with seamless transfer to the BS program at York College.</p>
 
-              <div class="col-md-1 text-center col-lg-3 col-lg-offset-1">
+
+                    <h3><font color="#3AB54A">Biotechnology</font></h3>
+
+                <p align="justify">This program will equip students with the knowledge and skills required to succeed as technicians in the modern biotechnology environment and provide QCC graduates with seamless transfer to the BS program at York College.</p>
+
+              <div>
                  <a href="http://www.qcc.cuny.edu/academics/degree-programs/biotechnology-dual-joint-york.html">
 				<!-- Course page -->
-                    <img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
-                    <p class="text-capitalize text-center">Courses</p>
+                    <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
+                    <p class="text-capitalize text-center">Courses</p></div>
                       </a> </div>
 
-              <div class="col-md-1 text-center col-lg-3"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/biotechnology-dual-joint-york.html#progOut">
+              <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/biotechnology-dual-joint-york.html#progOut">
                    <!-- Course page -->
-                   <img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
-                   <p class="text-capitalize text-center">Program Outcomes</p></a>
+                   <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
+                   <p class="text-capitalize text-center">Program Outcomes</p></div></a>
               </div>
-              <div class="col-md-1 text-center col-lg-3 col-lg-offset-0"> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=56&AcademyID=3">
+              <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=56&AcademyID=3">
                    <!-- Course page -->
-                   <img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
-                     <p class="text-capitalize text-center">Potential careers</p></a>
+                   <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
+                     <p class="text-capitalize text-center">Potential careers</p></div></a>
                    </div>
-              <div class="col-md-1 text-center col-lg-3 col-lg-offset-2"> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=36">
+              <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=36">
                    <!-- Course page -->
-                   <img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
-                    <p class="text-capitalize text-center">college transfer agreements</p></a>
+                   <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
+                    <p class="text-capitalize text-center">college transfer agreements</p></div></a>
                    </div>
-              <div class="col-md-1 text-center col-lg-3 col-lg-offset-1"> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=56">
+              <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=56">
                    <!-- Course page -->
-                   <img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
-                   <p class="text-capitalize text-center">Recommended Course Sequence</p> </a>
+                   <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
+                   <p class="text-capitalize text-center">Recommended Course Sequence</p></div> </a>
 				</div>
 
           </div>
-            <div class="col-md-6 col-lg-7">
-                   <a href="http://www.qcc.cuny.edu/academics/degree-programs/biotechnology-dual-joint-york.html">
-				<!-- Course page -->
-                    <img class="img-responsive img-hover img-rounded" src="pic/STEM_pic/Biotech.jpg" alt="">
-                </a><br></div>
+
 </div>
 
         <hr>
       <div class="row">
-           <div class="col-md-6 col-lg-7"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/chemistry-dual-joint-york.html">
+           <div class="imgleft">
             <!-- Course page -->
-            <img class="img-responsive img-hover img-rounded" src="pic/STEM_pic/Chemistry.jpg" alt=""> </a><br>
+            <img class="img-responsive  img-rounded" src="pic/STEM_pic/Chemistry.jpg" alt=""> <br>
           </div>
           <div class="col-md-5">
-            <h3> <a href="http://www.qcc.cuny.edu/academics/degree-programs/chemistry-dual-joint-york.html">Chemistry</a> </h3>
-            <p>Chemistry matters. It’s the study of matter—how it interacts, transforms and changes. If you’re looking to learn about the very substance of the world, find a great job and help improve society, explore chemistry at Queensborough!</p>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-1"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/chemistry-dual-joint-york.html">
+        <h3><font color="#3AB54A">Chemistry</font></h3>
+            <p align="justify">Chemistry matters. It’s the study of matter—how it interacts, transforms and changes. If you’re looking to learn about the very substance of the world, find a great job and help improve society, explore chemistry at Queensborough!</p>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/chemistry-dual-joint-york.html">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
-              <p class="text-capitalize text-center">Courses</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
+              <p class="text-capitalize text-center">Courses</p></div>
             </a> </div>
-            <div class="col-md-1 text-center col-lg-3"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/as-vapa-art-history.html#progOut">
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/as-vapa-art-history.html#progOut">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
-              <p class="text-capitalize text-center">Program Outcomes</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
+              <p class="text-capitalize text-center">Program Outcomes</p></div>
             </a> </div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-0"> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=67&AcademyID=3">
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=67&AcademyID=3">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
-              <p class="text-capitalize text-center">Potential careers</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
+              <p class="text-capitalize text-center">Potential careers</p></div>
             </a> </div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-2"> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=67">
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=67">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
-              <p class="text-capitalize text-center">college transfer agreements</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
+              <p class="text-capitalize text-center">college transfer agreements</p></div>
             </a> </div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-1"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/chemistry-dual-joint-york.html#rcs">
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/chemistry-dual-joint-york.html#rcs">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
-              <p class="text-capitalize text-center">Recommended Course Sequence</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
+              <p class="text-capitalize text-center">Recommended Course Sequence</p></div>
             </a> </div>
           </div>
 
         </div>
          <hr>
-          <!-- Dance-->
+
+         <div class="imgright">
+           <!-- Course page -->
+           <img class="img-responsive  img-rounded" src="pic/STEM_pic/CompSciInfoSec.jpg" alt=""><br>
+         </div>
         <div class="row">
           <div class="col-md-5">
-            <h3> <a href="http://www.qcc.cuny.edu/academics/degree-programs/information-security.html">Computer Science and Information Security</a></h3>
-            <p>Graduates of the Associate in Science degree program in Computer Science and Information Security are prepared for transfer to John Jay College of Criminal Justice to complete a Bachelor of Science (B.S.) degree in Computer Science and Information Security.</p>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-1"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/information-security.html">
+            <h3><font color="#3AB54A">Computer Science and Information Security</font></h3>
+            <p align="justify">Graduates of the Associate in Science degree program in Computer Science and Information Security are prepared for transfer to John Jay College of Criminal Justice to complete a Bachelor of Science (B.S.) degree in Computer Science and Information Security. QCC students will be offered the opportunity to obtain the A.S. Degree in the critical field of Cybersecurity.</p>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/information-security.html">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
-              <p class="text-capitalize text-center">Courses</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
+              <p class="text-capitalize text-center">Courses</p></div>
             </a></div>
-            <div class="col-md-1 text-center col-lg-3"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/information-security.html#progOut">
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/information-security.html#progOut">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
-              <p class="text-capitalize text-center">Program Outcomes</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
+              <p class="text-capitalize text-center">Program Outcomes</p></div>
             </a></div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-1"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/information-security.html#rcs">
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/information-security.html#rcs">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
-              <p class="text-capitalize text-center">Recommended Course Sequence</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
+              <p class="text-capitalize text-center">Recommended Course Sequence</p></div>
             </a></div>
           </div>
-          <div class="col-md-6 col-lg-7"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/digital-art-design.html">
-            <!-- Course page -->
-            <img class="img-responsive img-hover img-rounded" src="pic/STEM_pic/CompSciInfoSec.jpg" alt=""></a><br>
-          </div>
+
         </div>
 
         <hr>
 <!--Digital Art and Design-->
         <div class="row">
-          <div class="col-md-6 col-lg-7"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/engineering-science.html">
+          <div class="imgleft">
             <!-- Course page -->
-            <img class="img-responsive img-hover img-rounded" src="pic/STEM_pic/EngSci.jpg" alt=""> </a><br>
+            <img class="img-responsive  img-rounded" src="pic/STEM_pic/EngSci.jpg" alt=""> <br>
           </div>
           <div class="col-md-5">
-            <h3> <a href="http://www.qcc.cuny.edu/academics/degree-programs/engineering-science.html">Engineering Science</a> </h3>
-            <p>Everywhere you look, you see engineering at work – bridges, buildings, space ships, cell phones, and more.</p>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-1"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/engineering-science.html">
+          <h3><font color="#3AB54A">Engineering Science</font></h3>
+
+            <p align="justify">Everywhere you look, you see engineering at work – bridges, buildings, space ships, cell phones, and more. This math and science-based program gives you the foundation you need for transfer with advanced standing to a bachelor’s degree program in Engineering.</p>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/engineering-science.html">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
-              <p class="text-capitalize text-center">Courses</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
+              <p class="text-capitalize text-center">Courses</p></div>
             </a> </div>
-            <div class="col-md-1 text-center col-lg-3"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/engineering-science.html#progOut">
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/engineering-science.html#progOut">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
-              <p class="text-capitalize text-center">Program Outcomes</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
+              <p class="text-capitalize text-center">Program Outcomes</p></div>
             </a> </div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-0"> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=8&AcademyID=3">
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=8&AcademyID=3">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
-              <p class="text-capitalize text-center">Potential careers</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
+              <p class="text-capitalize text-center">Potential careers</p></div>
             </a> </div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-2"> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=8">
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=8">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
-              <p class="text-capitalize text-center">college transfer agreements</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
+              <p class="text-capitalize text-center">college transfer agreements</p></div>
             </a> </div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-1"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/engineering-science.html#rcs">
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/engineering-science.html#rcs">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
-              <p class="text-capitalize text-center">Recommended Course Sequence</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
+              <p class="text-capitalize text-center">Recommended Course Sequence</p></div>
             </a> </div>
           </div>
           </div>
 
 <!--Gallery and Museum Studies-->
         <hr>
+
+        <div class="imgright">
+          <!-- Course page -->
+          <img class="img-responsive  img-rounded" src="pic/STEM_pic/EnvSci.jpg" alt=""> <br>
+        </div>
       <div class="row">
           <div class="col-md-5">
-            <h3> <a href="http://www.qcc.cuny.edu/academics/degree-programs/environmental-science.html">Environmental Science</a> </h3>
-            <p>Graduates of the Associate in Science degree program in Environmental Science are prepared for transfer to a four-year college to complete a Bachelor of Science (B.S.) degree that is essential for most types of employment in this field.</p>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-1"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/environmental-science.html">
+          <h3><font color="#3AB54A">Environmental Science</font></h3>
+            <p align="justify">Graduates of the Associate in Science degree program in Environmental Science are prepared for transfer to a four-year college to complete a Bachelor of Science (B.S.) degree that is essential for most types of employment in this field.</p>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/environmental-science.html">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
-              <p class="text-capitalize text-center">Courses</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
+              <p class="text-capitalize text-center">Courses</p></div>
             </a> </div>
-            <div class="col-md-1 text-center col-lg-3"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/environmental-science.html#progOut">
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/environmental-science.html#progOut">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
-              <p class="text-capitalize text-center">Program Outcomes</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
+              <p class="text-capitalize text-center">Program Outcomes</p></div>
             </a> </div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-0"> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=73&AcademyID=3">
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=73&AcademyID=3">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
-              <p class="text-capitalize text-center">Potential careers</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
+              <p class="text-capitalize text-center">Potential careers</p></div>
             </a> </div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-2"> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=73">
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=73">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
-              <p class="text-capitalize text-center">college transfer agreements</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
+              <p class="text-capitalize text-center">college transfer agreements</p></div>
             </a> </div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-1"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/environmental-science.html#rcs">
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/environmental-science.html#rcs">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
-              <p class="text-capitalize text-center">Recommended Course Sequence</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
+              <p class="text-capitalize text-center">Recommended Course Sequence</p></div>
             </a> </div>
           </div>
-          <div class="col-md-6 col-lg-7"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/environmental-science.html">
-            <!-- Course page -->
-            <img class="img-responsive img-hover img-rounded" src="pic/STEM_pic/EnvSci.jpg" alt=""> </a><br>
-          </div>
+
         </div>
 
         <hr>
 
       <div class="row">
-                   <div class="col-md-6 col-lg-7"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/science-for-forensics.html">
+                   <div class="imgleft">
             <!-- Course page -->
-            <img class="img-responsive img-hover img-rounded" src="pic/STEM_pic/ForensicSciences.jpg" alt=""></a><br>
+            <img class="img-responsive  img-rounded" src="pic/STEM_pic/ForensicSciences.jpg" alt=""><br>
           </div>
           <div class="col-md-5">
-            <h3> <a href="http://www.qcc.cuny.edu/academics/degree-programs/science-for-forensics.html">Forensic Science</a></h3>
-            <p>Recent advances in chemistry, biology and computer science have created new opportunities in fields such as forensic science and criminalistics.</p>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-1"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/science-for-forensics.html">
+          <h3><font color="#3AB54A">Forensic Science</font></h3>
+            <p align="justify">Recent advances in chemistry, biology and computer science have created new opportunities in fields such as forensic science and criminalistics.</p>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/science-for-forensics.html">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
-              <p class="text-capitalize text-center">Courses</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
+              <p class="text-capitalize text-center">Courses</p></div>
             </a></div>
-            <div class="col-md-1 text-center col-lg-3"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/science-for-forensics.html#progOut">
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/science-for-forensics.html#progOut">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
-              <p class="text-capitalize text-center">Program Outcomes</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
+              <p class="text-capitalize text-center">Program Outcomes</p></div>
             </a></div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-0"> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=44&AcademyID=3">
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=44&AcademyID=3">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
-              <p class="text-capitalize text-center">Potential careers</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
+              <p class="text-capitalize text-center">Potential careers</p></div>
             </a></div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-2"> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=44">
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=44">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
-              <p class="text-capitalize text-center">college transfer agreements</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
+              <p class="text-capitalize text-center">college transfer agreements</p></div>
             </a></div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-1"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/science-for-forensics.html#rcs">
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/science-for-forensics.html#rcs">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
-              <p class="text-capitalize text-center">Recommended Course Sequence</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
+              <p class="text-capitalize text-center">Recommended Course Sequence</p></div>
+            </a></div>
+          </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+        <div class="imgright">
+            <!-- Course page -->
+            <img class="img-responsive  img-rounded" src="pic/STEM_pic/Math-Sci.jpg" alt=""><br>
+          </div>
+
+        <div class="row">
+
+          <div class="col-md-5">
+            <h3><font color="#3AB54A">Mathematics and Sciences</font></h3>
+
+            <p align="justify">The AS degree prepares you to transfer with advanced standing to baccalaureate in science programs (BS), leading to careers in science, mathematics, education, computer science, and the health sciences.</p>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/as-las-mathematics-science.html">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
+              <p class="text-capitalize text-center">Courses</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/as-las-mathematics-science.html#progOut">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
+              <p class="text-capitalize text-center">Program Outcomes</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=7&AcademyID=3">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
+              <p class="text-capitalize text-center">Potential careers</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=7">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
+              <p class="text-capitalize text-center">college transfer agreements</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/as-las-mathematics-science.html#rcs">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
+              <p class="text-capitalize text-center">Recommended Course Sequence</p></div>
             </a></div>
           </div>
 
@@ -362,78 +401,38 @@
 
 
         <div class="row">
-
-          <div class="col-md-5">
-            <h3> <a href="http://www.qcc.cuny.edu/academics/degree-programs/as-las-mathematics-science.html">Mathematics and Sciences</a></h3>
-            <p>The AS degree prepares you to transfer with advanced standing to baccalaureate in science programs (BS), leading to careers in science, mathematics, education, computer science, and the health sciences.</p>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-1"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/as-las-mathematics-science.html">
-              <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
-              <p class="text-capitalize text-center">Courses</p>
-            </a></div>
-            <div class="col-md-1 text-center col-lg-3"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/as-las-mathematics-science.html#progOut">
-              <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
-              <p class="text-capitalize text-center">Program Outcomes</p>
-            </a></div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-1"> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=7&AcademyID=3">
-              <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
-              <p class="text-capitalize text-center">Potential careers</p>
-            </a></div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-3"> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=7">
-              <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
-              <p class="text-capitalize text-center">college transfer agreements</p>
-            </a></div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-1"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/as-las-mathematics-science.html#rcs">
-              <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
-              <p class="text-capitalize text-center">Recommended Course Sequence</p>
-            </a></div>
-          </div>
-  			<div class="col-md-6 col-lg-7"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/as-las-mathematics-science.html">
+                   <div class="imgleft">
             <!-- Course page -->
-            <img class="img-responsive img-hover img-rounded" src="pic/STEM_pic/Math-Sci.jpg" alt=""></a><br>
-          </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-
-        <div class="row">
-                   <div class="col-md-6 col-lg-7"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/as-psychology.html">
-            <!-- Course page -->
-            <img class="img-responsive img-hover img-rounded" src="pic/STEM_pic/psychology.jpg" alt=""></a><br>
+            <img class="img-responsive  img-rounded" src="pic/STEM_pic/psychology.jpg" alt=""><br>
           </div>
           <div class="col-md-5">
-            <h3> <a href="http://www.qcc.cuny.edu/academics/degree-programs/as-psychology.html">Psychology</a></h3>
-            <p>This program is essential for most types of employment in this field. Graduates can pursue a wide range of career options including psychology, human services, and social services.</p>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-1"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/as-psychology.html">
+            <h3><font color="#3AB54A">Psychology</font></h3>
+
+            <p align="justify">This program is essential for most types of employment in this field. Graduates can pursue a wide range of career options including psychology, human services, and social services.</p>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/as-psychology.html">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
-              <p class="text-capitalize text-center">Courses</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
+              <p class="text-capitalize text-center">Courses</p></div>
             </a></div>
-            <div class="col-md-1 text-center col-lg-3"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/as-psychology.html#progOut">
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/as-psychology.html#progOut">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
-              <p class="text-capitalize text-center">Program Outcomes</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
+              <p class="text-capitalize text-center">Program Outcomes</p></div>
             </a></div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-1"> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=92&AcademyID=3">
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=92&AcademyID=3">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
-              <p class="text-capitalize text-center">Potential careers</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
+              <p class="text-capitalize text-center">Potential careers</p></div>
             </a></div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-3"> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=92">
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=92">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
-              <p class="text-capitalize text-center">college transfer agreements</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
+              <p class="text-capitalize text-center">college transfer agreements</p></div>
             </a></div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-1"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/as-psychology.html#rcs">
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-architectural-technology.html#rcs">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
-              <p class="text-capitalize text-center">Recommended Course Sequence</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
+              <p class="text-capitalize text-center">Recommended Course Sequence</p></div>
             </a></div>
           </div>
 
@@ -445,46 +444,268 @@
 </div>
         <hr>
 
-
+        <div class="imgright">
+          <!-- Course page -->
+          <img class="img-responsive  img-rounded" src="pic/STEM_pic/ComputerEngTech.jpg" alt=""><br>
+        </div>
         <div class="row">
 
           <div class="col-md-5">
-            <h3> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-music-production.html">Music Production</a></h3>
-            <p>This innovative program, the only one of its kind in CUNY, integrates computer, electronic, musical, midi, and "hands-on" recording studio training with classes conducted in technology labs and multi-track recording studios. All students complete a required cooperative internship in a professional recording studio.</p>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-1"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-music-production.html">
+          <h3><font color="#3AB54A">Computer Engineering Technology</font></h3>
+
+            <p align="justify">Fascinated by computers and their critical role in our lives? Become a computer programmer or technician, a technical sales representative, or a LAN technician. Gain the education, the technical skills, and the “hands-on experience” through internships and cooperative education projects and be ready for the job market and/or move toward a Bachelor of Engineering Technology.</p>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-computer-engineering-tech.html">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
-              <p class="text-capitalize text-center">Courses</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
+              <p class="text-capitalize text-center">Courses</p></div>
             </a></div>
-            <div class="col-md-1 text-center col-lg-3"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-music-production.html#progOut">
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-computer-engineering-tech.html#progOut">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
-              <p class="text-capitalize text-center">Program Outcomes</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
+              <p class="text-capitalize text-center">Program Outcomes</p></div>
             </a></div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-0"> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=18&AcademyID=4">
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=12&AcademyID=3">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
-              <p class="text-capitalize text-center">Potential careers</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
+              <p class="text-capitalize text-center">Potential careers</p></div>
             </a></div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-2"> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=18">
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=12">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
-              <p class="text-capitalize text-center">college transfer agreements</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
+              <p class="text-capitalize text-center">college transfer agreements</p></div>
             </a></div>
-            <div class="col-md-1 text-center col-lg-3 col-lg-offset-1"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-music-production.html#rcs">
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-computer-engineering-tech.html#rcs">
               <!-- Course page -->
-              <img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
-              <p class="text-capitalize text-center">Recommended Course Sequence</p>
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
+              <p class="text-capitalize text-center">Recommended Course Sequence</p></div>
             </a></div>
           </div>
-      		<div class="col-md-6 col-lg-7"> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-music-production.html">
-            <!-- Course page -->
-            <img class="img-responsive img-hover img-rounded" src="pic/VAPA_pic/MusicProd.JPG" alt=""></a><br>
-          </div>
+
         </div>
         <!-- /.row -->
 
         <hr>
+        <div class="row">
+                   <div class="imgleft">
+            <!-- Course page -->
+            <img class="img-responsive  img-rounded" src="pic/STEM_pic/CompArch-IndDesign.jpg" alt=""><br>
+          </div>
+          <div class="col-md-5">
+              <h3><font color="#3AB54A">Architectural Technology</font></h3>
+
+            <p align="justify">Do you have strong analytical, practical and visual skills? Prepare for drafting and design careers, -- engineering drafters, associate designers, detailers, technical illustrators, architectural drafters and CAD operators.</p>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-architectural-technology.html">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
+              <p class="text-capitalize text-center">Courses</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-architectural-technology.html#progOut">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
+              <p class="text-capitalize text-center">Program Outcomes</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=14&AcademyID=3">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
+              <p class="text-capitalize text-center">Potential careers</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=14">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
+              <p class="text-capitalize text-center">college transfer agreements</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-architectural-technology.html#rcs">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
+              <p class="text-capitalize text-center">Recommended Course Sequence</p></div>
+            </a></div>
+          </div>
+
+        </div>
+        <hr>
+        <div class="imgright">
+          <!-- Course page -->
+          <img class="img-responsive img-rounded" src="pic/STEM_pic/ElectronicEngTech.jpg" alt=""><br>
+        </div>
+        <div class="row">
+
+          <div class="col-md-5">
+            <h3><font color="#3AB54A">Electronic Engineering Technology</font></h3>
+
+            <p align="justify">Graduates are competent technicians prepared with problem-solving skills, a strong technical foundation, and the mathematics and science education needed to enter the field of electrical technology. Graduates may also transfer into the junior year of a bachelor’s program in engineering technology.</p>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-electronic-engineering-technology.html">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
+              <p class="text-capitalize text-center">Courses</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-electronic-engineering-technology.html#progOut">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
+              <p class="text-capitalize text-center">Program Outcomes</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=17&AcademyID=3">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
+              <p class="text-capitalize text-center">Potential careers</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=17">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
+              <p class="text-capitalize text-center">college transfer agreements</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-electronic-engineering-technology.html#rcs">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
+              <p class="text-capitalize text-center">Recommended Course Sequence</p></div>
+            </a></div>
+          </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+        <div class="row">
+                   <div class="imgleft">
+            <!-- Course page -->
+            <img class="img-responsive  img-rounded" src="pic/STEM_pic/Internet and Information Technology.jpg" alt=""><br>
+          </div>
+          <div class="col-md-5">
+            <h3><font color="#3AB54A">Internet and Information Technology</font></h3>
+
+            <p align="justify">Go where the future is with this program that combines learning of technology, art, music, and writing. Gain valuable skills in communications, programming, artistic layout and design, and animation. A cooperative education component puts you in the work place for college credit.</p>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-internet-technology.html">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
+              <p class="text-capitalize text-center">Courses</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-internet-technology.html#progOut">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
+              <p class="text-capitalize text-center">Program Outcomes</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=16&AcademyID=3">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
+              <p class="text-capitalize text-center">Potential careers</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=16">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
+              <p class="text-capitalize text-center">college transfer agreements</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-internet-technology.html#rcs">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
+              <p class="text-capitalize text-center">Recommended Course Sequence</p></div>
+            </a></div>
+          </div>
+
+        </div>
+        <hr>
+
+        <div class="imgright">
+          <!-- Course page -->
+          <img class="img-responsive  img-rounded" src="pic/STEM_pic/Mech-EngTech.jpg" alt=""><br>
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-5">
+            <h3><font color="#3AB54A">Mechanical Engineering Technology</font></h3>
+
+            <p align="justify">Do you see yourself at work in the space program, missile development, air and water pollution control, robotics or high speed railway equipment development? Learn in classrooms and labs that contain the same equipment as those found in industry. Graduates face strong employment opportunities as well as the possibility of transfer into a mechanical engineering degree program.</p>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-mechanical-engineering-tech.html">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
+              <p class="text-capitalize text-center">Courses</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-mechanical-engineering-tech.html#progOut">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
+              <p class="text-capitalize text-center">Program Outcomes</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=19&AcademyID=3">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
+              <p class="text-capitalize text-center">Potential careers</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=19">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
+              <p class="text-capitalize text-center">college transfer agreements</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-mechanical-engineering-tech.html#rcs">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
+              <p class="text-capitalize text-center">Recommended Course Sequence</p></div>
+            </a></div>
+          </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+        <div class="row">
+                   <div class="imgleft">
+            <!-- Course page -->
+            <img class="img-responsive  img-rounded" src="pic/STEM_pic/TelecommunicationsTech.jpg" alt=""><br>
+          </div>
+          <div class="col-md-5">
+         <h3><font color="#3AB54A">Telecommunications Technology</font></h3>
+            <p align="justify">Find a career in communications through the study of electronics, computers, and networks. Gain the education so you are ready to solved problems involving complete voice, video and data networks. Some students go on to study for a Bachelor’s in Engineering Technology.</p>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-telecommunications-tech.html">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="middle">
+              <p class="text-capitalize text-center">Courses</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-telecommunications-tech.html#progOut">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/ProgramOutcomes.jpg" alt="">
+              <p class="text-capitalize text-center">Program Outcomes</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/DegreeCareerList.aspx?MajorID=33&AcademyID=3">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/PotentialCareers.jpg" alt="">
+              <p class="text-capitalize text-center">Potential careers</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/CareerTraQ/TransferAgreementList.aspx?MajorID=33">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/TransferAgreements.jpg" alt="">
+              <p class="text-capitalize text-center">college transfer agreements</p></div>
+            </a></div>
+            <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/aas-telecommunications-tech.html#rcs">
+              <!-- Course page -->
+              <div class="imgicon"><img class="img-responsive img-hover" src="pic/Icons/CourseSequence.jpg" alt="">
+              <p class="text-capitalize text-center">Recommended Course Sequence</p></div>
+            </a></div>
+          </div>
+
+        </div>
+
+        <hr>
+        <div>
+        	<h1><b>Certificate Program</b></h1>
+        </div>
+          <hr>
+          <div class="imgright">
+            <!-- Course page -->
+            <img class="img-responsive  img-rounded" src="pic/STEM_pic/New Media Technology.jpg" alt=""><br>
+          </div>
+          <div class="row">
+
+            <div class="col-md-5">
+              <h3><font color="#3AB54A">New Media Technology</font></h3>
+            <p align="justify">The certificate program in New Media Technology provides students with a broad understanding of Internet-based technologies for the design, development, maintenance, and support of such digital media as hyperlinked texts, static and moving imagery, audio, video, and multiple interfaces of these media. For those seeking immediate employment in a burgeoning field or for professionals currently in the field who wish to enhance job skills, the certificate program offers training and education for students with varied interests, backgrounds, and preparation. Using an integrated, interdisciplinary approach, the program combines instruction in technology, art, and writing, providing valuable skills in communication, programming, database and e-commerce, artistic layout and design, and animation.</p>
+              <div> <a href="http://www.qcc.cuny.edu/academics/degree-programs/cert-new-media-technology.html">
+                <!-- Course page -->
+                <div class="apps"><img class="img-responsive img-hover" src="pic/Icons/ViewCourses.jpg" alt="" align="left">
+                <p class="text-capitalize text-center">Courses</p></div>
+              </a></div>
+
+            </div>
+
+          </div>
+          <hr>
 
 
         <!-- Footer -->
